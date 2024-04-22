@@ -1,0 +1,13 @@
+package org.zerock.spring.sample;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Repository;
+//
+
+@Repository
+//@Qualifier("event")
+@Primary
+public class EventSampleDAOImpl implements SampleDAO{
+
+}
